@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login_title" />
+    <string name="username_title" />
+    <string name="password_title" />
+    <string name="button_login" />
+    <string name="register" />
+    <string name="password_confirm_title" />
+    <string name="login_error_message" />
+    <string name="register_success" />
+    <string name="register_error_message" />
+    <string name="register_password_error" />
+</resources>

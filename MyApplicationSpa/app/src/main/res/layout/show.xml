@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272727">
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="9dp">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/a1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:text="NO."
+                android:textColor="#ffffff"
+                android:textAlignment="textEnd"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text=""
+                android:textColor="#ffffff"
+                android:textAlignment="textEnd"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/b2"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="NAEM"
+                android:textColor="#ffffff"
+                android:textAlignment="textEnd"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="#ffffff"
+                android:text=""
+                android:textAlignment="textEnd"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="#ffffff"
+                android:text="LASTNAME"
+                android:textAlignment="textEnd"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="#ffffff"
+                android:text="NO."
+                android:textAlignment="textEnd"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="#ffffff"
+                android:text=""
+                android:textAlignment="textEnd"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="#ffffff"
+                android:text="NAEM"
+                android:textAlignment="textEnd"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="#ffffff"
+                android:text=""
+                android:textAlignment="textEnd"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="#ffffff"
+                android:text="LASTNAME"
+                android:textAlignment="textEnd"
+                android:textSize="20dp" />
+
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/id_cus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="#ffffff"
+                android:text=" "
+                android:textAlignment="textEnd"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:id="@+id/name_cus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="#ffffff"
+                android:text="     "
+                android:textAlignment="textEnd"
+                android:textSize="25dp" />
+
+
+            <TextView
+                android:id="@+id/lastname_cus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="#ffffff"
+                android:text="    "
+                android:textAlignment="textEnd"
+                android:textSize="25dp" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
